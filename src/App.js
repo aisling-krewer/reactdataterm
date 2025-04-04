@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import './cyberpunk.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <section className="App cyberpunk black">
+      <h1 className="cyberpunk">Welcome to DATATERM™</h1>
+      <br />
+      <p className="unstyle">Download, print or check out the news with DATATERM™ by Ziguratt. <br />
+      Last update: 16 minutes ago. </p>
+    </section>
+        <section className="App cyberpunk inverse">
+        <button className="cyberpunk blue">Latest Headlines</button>
+        <button className="cyberpunk blue">Night City Information</button>
+        <button className="cyberpunk blue">Body Lotto Results</button>
+      </section>
+      </div>
   );
 }
 
